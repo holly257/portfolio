@@ -7,12 +7,12 @@ class Nav extends Component {
   render() {
     return (
       <nav id='nav-bar'>
-        <img class='nav-split' id='logo' src='/img/PersonalLogoInitials.png' alt='HR personal logo'></img>
-        <div class='nav-split' id='nav-items'>
-          <Link class='droplist' to='/'>Home</Link>
-          <Link class='droplist' to='/about'>About</Link>
-          <Link class='droplist' to='/portfolio'>Portfolio</Link>
-          <Link class='droplist' to='/contact'>Contact</Link>
+        <img className='nav-split' id='logo' src='/img/PersonalLogoInitials.png' alt='HR personal logo'></img>
+        <div className='nav-split' id='nav-items'>
+          <Link className='droplist' to='/'>Home</Link>
+          <Link className='droplist' to='/about'>About</Link>
+          <Link className='droplist' to='/portfolio'>Portfolio</Link>
+          <Link className='droplist' to='/contact'>Contact</Link>
         </div>
       </nav>
     );

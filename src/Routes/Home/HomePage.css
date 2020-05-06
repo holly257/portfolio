@@ -1,0 +1,25 @@
+#home {
+    background-image: url('/img/Mountain.jpg');
+    background-size: cover;
+}
+
+#home-containter {
+    width: 100vw;
+    height: 100vh;
+}
+
+#home-span {
+    text-align: right;
+    padding: 20%;
+}
+
+.home-intro {
+    padding: 10px;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+#home-info {
+    font-size: 30px;
+    font-weight: 100;
+}
