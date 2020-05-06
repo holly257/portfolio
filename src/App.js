@@ -6,6 +6,7 @@ import AboutPage from './Routes/About/AboutPage'
 import ContactPage from './Routes/Contact/ContactPage'
 import PortfolioPage from './Routes/Portfolio/PortfolioPage'
 import NotFoundPage from './Routes/NotFound/NotFoundPage'
+import './App.css'
 
 function App() {
   return (

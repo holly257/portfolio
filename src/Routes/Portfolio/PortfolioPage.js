@@ -1,4 +1,5 @@
 import React from 'react';
+import './PortfolioPage.css'
 
 function PortfolioPage() {
   return (

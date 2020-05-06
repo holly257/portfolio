@@ -1,0 +1,13 @@
+.droplist{
+    text-align: right;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+#nav-bar {
+    text-align: right;
+    background-color: rgb(77, 77, 77);
+    width: 100vw;
+    margin: 0;
+}
