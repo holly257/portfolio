@@ -17,12 +17,15 @@
 }
 
 #about-header {
+    margin-top: 20px;
+    font-size: 22px;
     font-weight: 300;
 }
 
 #about-intro {
     font-weight: 300;
-    padding: 20px;
+    font-size: 22px;
+    padding: 10px 20px;
 }
 
 .about {
@@ -32,5 +35,5 @@
 }
 
 #about-img {
-    width: 200px;
+    width: 245px;
 }
