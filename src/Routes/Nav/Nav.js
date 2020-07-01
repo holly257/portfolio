@@ -1,23 +1,50 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import './Nav.css'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import './Nav.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faWindowClose } from '@fortawesome/free-solid-svg-icons';
 
 class Nav extends Component {
+    state = {
+        hiddenDropdown: true,
+    };
 
-  render() {
-    return (
-      <nav id='nav-bar'>
-        <img className='nav-split' id='logo' src='/img/PersonalLogoInitials.png' alt='HR personal logo'></img>
-        <div className='nav-split' id='nav-items'>
-          <Link className='droplist' to='/'>Home</Link>
-          <Link className='droplist' to='/about'>About</Link>
-          <Link className='droplist' to='/portfolio'>Portfolio</Link>
-          <Link className='droplist' to='/contact'>Contact</Link>
-        </div>
-      </nav>
-    );
-  }
-  
+    toggleDropdown = () => {
+        this.setState(prevState => ({
+            hiddenDropdown: !prevState.hiddenDropdown,
+        }));
+    };
+
+    render() {
+        const { hiddenDropdown } = this.state;
+
+        return (
+            <nav id="nav-bar">
+                <img id="logo" src="/img/PersonalLogoInitials.png" alt="HR personal logo"></img>
+                <span id="right-nav">
+                    <FontAwesomeIcon
+                        icon={hiddenDropdown ? faBars : faWindowClose}
+                        id="nav-bars"
+                        onClick={this.toggleDropdown}
+                    />
+                    <div id={`${hiddenDropdown ? 'nav-hide' : 'nav-show'}`}>
+                        <Link onClick={this.toggleDropdown} className="nav-link" to={'/'}>
+                            Home
+                        </Link>
+                        <Link onClick={this.toggleDropdown} className="nav-link" to={'/about'}>
+                            About
+                        </Link>
+                        <Link onClick={this.toggleDropdown} className="nav-link" to={'/portfolio'}>
+                            Portfolio
+                        </Link>
+                        <Link onClick={this.toggleDropdown} className="nav-link" to={'/contact'}>
+                            Contact
+                        </Link>
+                    </div>
+                </span>
+            </nav>
+        );
+    }
 }
 
 export default Nav;
