@@ -20,7 +20,10 @@ class Nav extends Component {
 
         return (
             <nav id="nav-bar">
-                <img id="logo" src="/img/PersonalLogoInitials.png" alt="HR personal logo"></img>
+                <Link id='nav-home-link' to={'/'}>
+                    <img id="logo" src="/img/PersonalLogoInitialsCropped.png" alt="HR personal logo"></img>
+                </Link>
+                
                 <span id="right-nav">
                     <FontAwesomeIcon
                         icon={hiddenDropdown ? faBars : faWindowClose}

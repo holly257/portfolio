@@ -2,3 +2,9 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+.main-body {
+    margin-top: 40px;
+    padding: 20px;
+    height: 100vh;
+}

@@ -3,7 +3,7 @@ import './AboutPage.css';
 
 function AboutPage() {
     return (
-        <main>
+        <main className='main-body'>
             {/* <div id="about-me">A B O U T &nbsp;&nbsp; M E</div>
             <div id="about-page">
                 <span className="split">
