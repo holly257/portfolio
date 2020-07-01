@@ -1,12 +1,8 @@
 import React from 'react';
-import './PortfolioPage.css'
+import './PortfolioPage.css';
 
 function PortfolioPage() {
-  return (
-    <main>
-      test portfolio
-    </main>
-  );
+    return <main>test portfolio</main>;
 }
 
 export default PortfolioPage;
