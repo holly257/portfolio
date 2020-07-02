@@ -8,7 +8,12 @@ function ContactPage() {
             <ul>
                 <li className="contact-info">hollymrogers@gmail.com</li>
                 <li className="contact-info">
-                    <a href="https://github.com/holly257/" target="_blank" tabindex="6">
+                    <a
+                        href="https://github.com/holly257/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        tabindex="6"
+                    >
                         Github
                     </a>
                 </li>
@@ -16,6 +21,7 @@ function ContactPage() {
                     <a
                         href="https://www.linkedin.com/in/holly-rogers-1194a0178/"
                         target="_blank"
+                        rel="noopener noreferrer"
                         tabindex="7"
                     >
                         LinkedIn
