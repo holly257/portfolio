@@ -3,7 +3,7 @@ import './ContactPage.css';
 
 function ContactPage() {
     return (
-        <main classNameName="main-body">
+        <main className="main-body">
             <h5 id="contact">Contact Me:</h5>
             <ul>
                 <li className="contact-info">hollymrogers@gmail.com</li>
@@ -12,7 +12,7 @@ function ContactPage() {
                         href="https://github.com/holly257/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        tabindex="6"
+                        tabIndex="6"
                     >
                         Github
                     </a>
@@ -22,7 +22,7 @@ function ContactPage() {
                         href="https://www.linkedin.com/in/holly-rogers-1194a0178/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        tabindex="7"
+                        tabIndex="7"
                     >
                         LinkedIn
                     </a>

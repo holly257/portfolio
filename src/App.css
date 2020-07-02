@@ -8,3 +8,11 @@
     padding: 20px;
     height: 100vh;
 }
+
+.title-text {
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}

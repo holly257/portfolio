@@ -31,7 +31,7 @@ function AboutPage() {
                     <img id="about-img" src="/img/Holly1.jpg" alt="Hey! I am Holly."></img>
                 </span>
             </div> */}
-            <div id="about-me">A B O U T &nbsp;&nbsp; M E</div>
+            <div className="title-text">A B O U T &nbsp;&nbsp; M E</div>
             <div id="about-page">
                 <span className="split">
                     <img id="about-img" src="/img/Holly1.jpg" alt="Hey! I am Holly."></img>

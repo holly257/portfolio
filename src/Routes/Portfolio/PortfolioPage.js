@@ -7,7 +7,7 @@ function PortfolioPage() {
             {/* id="portfolio" className="scrolling-box" */}
             <div className="wrapper">
                 <div className="gridHead">
-                    <h3>P O R T F O L I O</h3>
+                    <h3 className="title-text">P O R T F O L I O</h3>
                 </div>
                 <div className="one">
                     <img
@@ -127,7 +127,7 @@ function PortfolioPage() {
                     </div>
                 </div>
 
-                <div className="three">
+                <div className="one">
                     <img
                         className="pic"
                         src="img/ipadviewquizapptinyCropped2.png"
@@ -165,9 +165,7 @@ function PortfolioPage() {
                         </section>
                     </div>
                 </div>
-                <div className="four">
-                    <h3 id="more-soon">More Coming Soon!</h3>
-                </div>
+                
                 <div className="hide"></div>
             </div>
         </main>
