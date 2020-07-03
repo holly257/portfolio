@@ -165,7 +165,7 @@ function PortfolioPage() {
                         </section>
                     </div>
                 </div>
-                
+
                 <div className="hide"></div>
             </div>
         </main>
