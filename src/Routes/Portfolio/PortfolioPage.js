@@ -11,6 +11,53 @@ function PortfolioPage() {
                 </div>
                 <div className="one">
                     <img
+                        className="pic"
+                        src=""
+                        alt="Growing Up Screenshot"
+                    />
+                    <div>
+                        <h3>Growing Up</h3>
+                        <p>
+                            !
+                        </p>
+                        <section>
+                            <h5>HTML, CSS, JavaScript, React, Node.js, SQL, PostgreSQL</h5>
+                            <br />
+                            <h6 className="portfolioFooter">
+                                <a
+                                    href="https://holly257.github.io/Quiz-App/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    tabIndex="4"
+                                >
+                                    APP
+                                </a>
+                            </h6>
+                            <h6 className="portfolioFooter">
+                                <a
+                                    href="https://github.com/makowilliams/growing-up"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    tabIndex="5"
+                                >
+                                    CLIENT
+                                </a>
+                            </h6>
+                            <h6 className="portfolioFooter">
+                                <a
+                                    href="https://github.com/halemd30/growing-up-server"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    tabIndex="5"
+                                >
+                                    SERVER
+                                </a>
+                            </h6>
+                        </section>
+                    </div>
+                </div>
+                <div className="one">
+                    <img
                         id="noteful"
                         className="pic"
                         src="img/Noteful.png"
@@ -126,46 +173,6 @@ function PortfolioPage() {
                         </section>
                     </div>
                 </div>
-
-                <div className="one">
-                    <img
-                        className="pic"
-                        src="img/ipadviewquizapptinyCropped2.png"
-                        alt="Quiz App Screenshot"
-                    />
-                    <div>
-                        <h3>Geography Quiz</h3>
-                        <p>
-                            A quick quiz to test your knowledge about this beautiful and fun world
-                            we live in!
-                        </p>
-                        <section>
-                            <h5>HTML, CSS, and Javascript</h5>
-                            <br />
-                            <h6 className="portfolioFooter">
-                                <a
-                                    href="https://holly257.github.io/Quiz-App/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    tabIndex="4"
-                                >
-                                    APP
-                                </a>
-                            </h6>
-                            <h6 className="portfolioFooter">
-                                <a
-                                    href="https://github.com/holly257/Quiz-App"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    tabIndex="5"
-                                >
-                                    REPO
-                                </a>
-                            </h6>
-                        </section>
-                    </div>
-                </div>
-
                 <div className="hide"></div>
             </div>
         </main>
