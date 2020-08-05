@@ -14,7 +14,7 @@ export default {
         },
         {
             id: 2,
-            image: '',
+            image: 'img/Traveler_LandingPage.png',
             image_alt: 'Travler Screenshot',
             name: 'Traveler',
             description: 'Traveler allows users to create and browse reviews of things to do on a trip. They can then take those ideas and create, edit, and save a trip itinerary.',
