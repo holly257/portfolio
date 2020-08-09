@@ -1,12 +1,19 @@
 #home {
+    background-image: url('/img/MobileHeroImg.png');
     background-size: cover;
     padding: 0;
     margin: 0;
 }
 
-#profile-image{
-    width: 300px;
-    border-radius: 100px;
+.split_home {
+    width: 100vw;
+}
+
+#more_link{
+    color: white;
+}
+nav-link, a {
+    background-color: initial;
 }
 
 .home-intro {
@@ -21,4 +28,16 @@
     font-size: 25px;
     font-weight: 100;
     text-align: right;
+}
+
+@media (min-width: 800px) {
+    #home {
+        background-image: url('/img/HeroImg.png');
+        background-size: cover;
+    }
+    .split_home {
+        flex: 1;
+        padding: 1em;
+        margin-top: 30px;
+    }
 }

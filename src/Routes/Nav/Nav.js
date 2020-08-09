@@ -21,11 +21,12 @@ class Nav extends Component {
         return (
             <nav id="nav-bar">
                 <Link id="nav-home-link" to={'/'}>
-                    <img
+                    
+                    {/* <img
                         id="logo"
                         src="/img/PersonalLogoInitialsCropped.png"
                         alt="HR personal logo"
-                    ></img>
+                    ></img> */}
                 </Link>
 
                 <span id="right-nav">
