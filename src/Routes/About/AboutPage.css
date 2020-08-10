@@ -2,6 +2,11 @@
     display: flex;
 }
 
+.main-body {
+    background-color: white;
+    color: #343434;
+}
+
 .split {
     flex: 1;
     padding: 1em;
@@ -12,6 +17,10 @@
     margin-top: 20px;
     font-size: 22px;
     font-weight: 300;
+}
+
+.title-text{
+    color: #f1cd76;
 }
 
 #about-intro {
@@ -27,5 +36,5 @@
 }
 
 #about-img {
-    width: 245px;
+    width: 100%;
 }

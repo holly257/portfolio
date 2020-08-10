@@ -1,12 +1,14 @@
 #home {
-    background-image: url('/img/MobileHeroImg.png');
-    background-size: cover;
     padding: 0;
     margin: 0;
 }
 
 .split_home {
     width: 100vw;
+}
+
+#home-page{
+    margin-top: 100px;
 }
 
 #more_link{
@@ -31,10 +33,6 @@ nav-link, a {
 }
 
 @media (min-width: 800px) {
-    #home {
-        background-image: url('/img/HeroImg.png');
-        background-size: cover;
-    }
     .split_home {
         flex: 1;
         padding: 1em;
