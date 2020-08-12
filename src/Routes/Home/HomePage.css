@@ -1,39 +1,35 @@
-#home {
-    padding: 0;
-    margin: 0;
+.split {
+    padding: 1em;
+    margin-top: 30px;
 }
 
-.split_home {
-    width: 100vw;
-}
-
-#home-page{
-    margin-top: 100px;
-}
-
-#more_link{
-    color: white;
-}
-nav-link, a {
-    background-color: initial;
-}
-
-.home-intro {
-    padding: 70px 70px 0;
+#home-header {
+    margin-top: 20px;
+    font-size: 22px;
     font-weight: 300;
-    font-size: 34px;
-    text-align: left;
 }
 
-#home-info {
-    padding: 30px 70px;
-    font-size: 25px;
-    font-weight: 100;
-    text-align: right;
+#home-intro {
+    font-weight: 300;
+    font-size: 22px;
+    padding: 10px 20px;
+}
+
+.home {
+    font-weight: 300;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+#home-img {
+    width: 100%;
 }
 
 @media (min-width: 800px) {
-    .split_home {
+    #home-page {
+        display: flex;
+    }
+    .split {
         flex: 1;
         padding: 1em;
         margin-top: 30px;

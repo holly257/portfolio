@@ -1,5 +1,6 @@
 import React from 'react';
 import './AboutPage.css';
+import { Link } from 'react-router-dom';
 
 function AboutPage() {
     return (
@@ -24,9 +25,9 @@ function AboutPage() {
                     <h4 className="about">
                         In my free time I enjoy traveling, reading, hiking, and working on personal projects.
                     </h4>
-                    <h4 className="about">
-                        Feel free to reach out or browse some of my recent projects!
-                    </h4>
+                    <Link to='/contact'>
+                        Let's work together
+                    </Link>
                 </span>
             </div>
         </main>
