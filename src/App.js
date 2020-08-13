@@ -5,6 +5,7 @@ import HomePage from './Routes/Home/HomePage';
 import ContactPage from './Routes/Contact/ContactPage';
 import PortfolioPage from './Routes/Portfolio/PortfolioPage';
 import NotFoundPage from './Routes/NotFound/NotFoundPage';
+import Footer from './Routes/Footer/Footer';
 import './App.css';
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
                     <Route component={NotFoundPage} />
                 </Switch>
             </main>
+            <nav>
+                <Footer />
+            </nav>
         </>
     );
 }

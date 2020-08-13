@@ -6,7 +6,8 @@
 .main-body {
     margin-top: 40px;
     padding: 20px;
-    height: 100vh;
+    background-color: white;
+    color: #4d4646;
 }
 
 .title-text {
@@ -15,4 +16,6 @@
     margin-top: 20px;
     padding: 20px;
     text-align: center;
+    color: #4d4646;
+    text-decoration: underline #e3ebf2;
 }

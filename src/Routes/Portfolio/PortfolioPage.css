@@ -17,8 +17,8 @@ h6 {
     display: inline-block;
     margin: 0 5% 5% 0%;
     font-size: 15px;
-    color: black;
-    border: 1px solid gray;
+    background-color: #e3ebf2;
+    /* border: 1px solid #88bdcf; */
     outline-style: 1px solid;
     border-radius: 4px;
     padding: 2px;
@@ -37,6 +37,7 @@ h6 {
     color: #222831;
     font-weight: 400; 
     font-family: 'Raleway', sans-serif;
+    text-decoration: underline #e3ebf2;
 }
 
 .project-description{ 

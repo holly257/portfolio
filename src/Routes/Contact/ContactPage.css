@@ -1,36 +1,81 @@
-.contact-item {
-    list-style-type: none;
-    display: inline-block;
-    padding: 0;
-    margin-right: 0;
-}
-
-.contact-item a,
-li {
-    margin-left: 8px;
-    background-color: white;
-    color: #4d4646
-}
-
-.contact-logos {
-    width: 17px;
-    height: 16px;
-    margin: 0;
-    padding: 0;
-}
-
 .contact-container {
     box-shadow: 0px 2px 10px 2px rgb(219, 219, 219);
     border-radius: 0px;
     margin: 30px 0;
     padding: 10px;
+    
 }
 
-.main-body {
+.contact-card {
+    padding: 0;
+    border-radius: 4px 4px 4px 4px;
+}
+
+#card-hello-top {
+    background-color: #464646;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+}
+
+#card-hello-right {
+    display: none;
+}
+
+form {
+    padding-left: 15px;
+    margin: 10px;
+}
+
+#card-greeting {
+    color: #e3ebf2;
+    font-family: 'Raleway', sans-serif;
+    align-self: flex-end;
+}
+
+.card-input {
+    border: 0;
+    border-bottom: 1px solid #464646;
+    margin: 5px 0;
+    font-family: 'lato', sans-serif;
+}
+
+textarea {
+    margin: 10px 0;
+    font-family: 'lato', sans-serif;
+}
+
+#send-email {
+    color: black;
+    text-decoration: none;
     background-color: white;
-    color: #4d4646;
+    font-weight: 300;
+    border: 2px solid #e3ebf2;
+    padding: 2px 10px;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
 }
 
-.title-text {
-    color: #88bdcf;
+@media (min-width: 800px) {
+    .contact-card {
+        display: flex;
+        padding: 0;
+    }
+
+    .split-contact {
+        flex: 1;
+        padding: 1em;
+    }
+
+    #card-hello-top {
+        display: none;
+    }
+
+    #card-hello-right {
+        background-color: #464646;
+        padding: 10px;
+        margin: 0;
+        display: flex;
+    }
 }
