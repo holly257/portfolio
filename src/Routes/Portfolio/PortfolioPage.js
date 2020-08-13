@@ -5,7 +5,6 @@ import EachProject from './EachProject';
 
 class PortfolioPage extends React.Component {
     render() {  
-        console.log(myProjects.projects)  
         return (
             <main className="main-body">
                 {/* id="portfolio" className="scrolling-box" */}
