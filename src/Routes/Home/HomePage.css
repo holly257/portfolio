@@ -10,23 +10,22 @@
     font-family: 'Raleway', sans-serif;
 }
 
-#home-intro {
-    font-weight: 500;
-    font-size: 22px;
-    padding: 10px 20px;
-    font-family: 'Raleway', sans-serif;
+#home-page-main{
+    padding: 0;
 }
 
 .home {
     font-weight: 300;
     line-height: 25px;
-    margin-top: 20px;
-    /* font-family: 'Noto Sans JP', sans-serif; */
+    padding: 20px;
+    background-color: #e3ebf2;
     font-family: 'Lato', sans-serif;
 }
 
 #home-img {
-    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+    width: 100vw;
 }
 
 @media (min-width: 800px) {

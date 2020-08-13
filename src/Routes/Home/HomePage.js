@@ -25,9 +25,6 @@ function HomePage() {
                     <h4 className="home">
                         In my free time I enjoy traveling, reading, hiking, and working on personal projects.
                     </h4>
-                    <Link to='/contact'>
-                        Let's work together
-                    </Link>
                 </span>
             </div>
         </main>

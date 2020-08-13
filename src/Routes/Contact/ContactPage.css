@@ -12,7 +12,7 @@
 }
 
 #card-hello-top {
-    background-color: #464646;
+    background-color: #b1d4e0;
     padding: 10px;
     margin: 0;
     display: flex;
@@ -28,7 +28,7 @@ form {
 }
 
 #card-greeting {
-    color: #e3ebf2;
+    color: white;
     font-family: 'Raleway', sans-serif;
     align-self: flex-end;
 }
@@ -73,9 +73,13 @@ textarea {
     }
 
     #card-hello-right {
-        background-color: #464646;
+        background-color: #b1d4e0;
         padding: 10px;
         margin: 0;
         display: flex;
     }
+    #card-greeting {
+        font-size: 50px;
+    }
 }
+

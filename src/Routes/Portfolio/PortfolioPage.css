@@ -71,7 +71,7 @@ h6 {
     .wrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 50px 720px;
+        /* grid-template-rows: 50px 720px; */
         grid-gap: 10px;
         grid-auto-rows: minmax(200px, auto);
     }
