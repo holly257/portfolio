@@ -7,10 +7,10 @@ class EachProject extends React.Component {
             <div className="one">
                 <img className="pic" src={this.props.image} alt={this.props.image_alt} />
                 <div>
-                    <h3>{this.props.name}</h3>
-                    <p>{this.props.description}</p>
+                    <h3 className='project-name'>{this.props.name}</h3>
+                    <p className='project-description'>{this.props.description}</p>
                     <section>
-                        <h5>{this.props.tech}</h5>
+                        <h5 className='project-tech'>{this.props.tech}</h5>
                         <br />
                         <h6 className="portfolioFooter">
                             <a

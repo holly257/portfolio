@@ -11,7 +11,7 @@ class PortfolioPage extends React.Component {
                 {/* id="portfolio" className="scrolling-box" */}
                 <div className="wrapper">
                     <div className="gridHead">
-                        <h3 className="title-text">P O R T F O L I O</h3>
+                        <h3 className="title-text">PORTFOLIO</h3>
                     </div>
                     {myProjects.projects.map((project) => {
                         return (

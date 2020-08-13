@@ -10,7 +10,7 @@ function HomePage() {
         <main className="main-body" id="home-page-main">
             <div id="home-page">
                 <span className="split">
-                    <img id="home-img" src="/img/2.png" alt="Builder, Designer, Leader, Collaborator"></img>
+                    <img id="home-img" src="/img/4.png" alt="Builder, Designer, Leader, Collaborator"></img>
                 </span>
                 <span className="split">
                     <h1 id="home-header">Nice to meet you,</h1>

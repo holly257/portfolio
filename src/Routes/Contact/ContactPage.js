@@ -8,7 +8,7 @@ function ContactPage() {
         <main className="main-body">
             <div>
                 <div>
-                    <h3 className="title-text">C O N T A C T</h3>
+                    <h3 className="title-text">CONTACT</h3>
                 </div>
                 <div className="contact-container">
                     <li className="contact-item contact-info">

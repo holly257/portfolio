@@ -22,11 +22,11 @@ class Nav extends Component {
             <nav id="nav-bar">
                 <Link id="nav-home-link" to={'/'}>
                     
-                    {/* <img
+                    <img
                         id="logo"
-                        src="/img/PersonalLogoInitialsCropped.png"
+                        src="/favicon.ico"
                         alt="HR personal logo"
-                    ></img> */}
+                    ></img>
                 </Link>
 
                 <span id="right-nav">
@@ -38,9 +38,6 @@ class Nav extends Component {
                     <div id={`${hiddenDropdown ? 'nav-hide' : 'nav-show'}`}>
                         <Link onClick={this.toggleDropdown} className="nav-link" to={'/'}>
                             Home
-                        </Link>
-                        <Link onClick={this.toggleDropdown} className="nav-link" to={'/about'}>
-                            About
                         </Link>
                         <Link onClick={this.toggleDropdown} className="nav-link" to={'/portfolio'}>
                             Portfolio
