@@ -38,9 +38,6 @@ function HomePage() {
                 </span>
             </div>
             <div className="wrapper-home">
-                <div className="gridHead-home">
-                    <h3 className="title-text">PORTFOLIO</h3>
-                </div>
                 <div className="skills-box">
                     <FontAwesomeIcon className='center-item' icon={faCode} />
                     <div>
