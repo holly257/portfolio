@@ -4,18 +4,15 @@ import myProjects from '../../STORE';
 import EachProject from './EachProject';
 
 class PortfolioPage extends React.Component {
-    render() {  
+    render() {
         return (
             <main className="main-body">
-                {/* id="portfolio" className="scrolling-box" */}
                 <div className="wrapper">
                     <div className="gridHead">
                         <h3 className="title-text">PORTFOLIO</h3>
                     </div>
-                    {myProjects.projects.map((project) => {
-                        return (
-                            <EachProject key={project.id} {...project}/>
-                        )
+                    {myProjects.projects.map(project => {
+                        return <EachProject key={project.id} {...project} />;
                     })}
                 </div>
             </main>

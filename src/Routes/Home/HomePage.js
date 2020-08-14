@@ -2,8 +2,12 @@ import React from 'react';
 import './HomePage.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faDatabase } from '../../../node_modules/@fortawesome/free-solid-svg-icons';
-
+import {
+    faCode,
+    faDatabase,
+    faCheckDouble,
+    faTasks,
+} from '../../../node_modules/@fortawesome/free-solid-svg-icons';
 
 function HomePage() {
     return (
@@ -27,9 +31,10 @@ function HomePage() {
                         problem solving.
                     </h4>
                     <h4 className="home">
-                        I enjoy building and finding elegant solutions to problems that increase efficieny and help the end user. 
-                        I am looking for the opportunity to join a team of developers that values
-                        learning, mentorship, communication, and delivering a high quality product.
+                        I enjoy building and finding elegant solutions to problems that increase
+                        efficieny and help the end user. I am looking for the opportunity to join a
+                        team of developers that values learning, mentorship, communication, and
+                        delivering a high quality product.
                     </h4>
                     <h4 className="home">
                         In my free time I enjoy traveling, reading, hiking, and working on personal
@@ -39,11 +44,15 @@ function HomePage() {
             </div>
             <div className="wrapper-home">
                 <div className="skills-box">
-                    <FontAwesomeIcon className='center-item' icon={faCode} />
+                    <FontAwesomeIcon className="center-item" icon={faCode} />
                     <div>
                         <h3 className="project-name center">Frontend</h3>
-                        <p className="project-description">I've always had a passion to build and now enjoy bringing new ideas to life. I build apps with a minimalistic, classic style backed by carefully crafted code.</p>
-                        <ul className='skills-list'>
+                        <p className="project-description">
+                            I've always had a passion to build and now enjoy bringing new ideas to
+                            life. I build apps with a minimalistic, classic style backed by
+                            carefully crafted code.
+                        </p>
+                        <ul className="skills-list">
                             <li>Canva</li>
                             <li>HTML</li>
                             <li>CSS</li>
@@ -53,16 +62,38 @@ function HomePage() {
                     </div>
                 </div>
                 <div className="skills-box">
-                <FontAwesomeIcon className='center-item' icon={faDatabase} />
+                    <FontAwesomeIcon className="center-item" icon={faDatabase} />
                     <div>
                         <h3 className="project-name center">Backend</h3>
-                        <p className="project-description">I love crafting solutions and improving old code! I am passionate about finding thoughtful, clean solutions to problems and inplementing fully tested functionality.</p>
-                        <ul className='skills-list'>
+
+                        <p className="project-description">
+                            I love crafting solutions and improving old code! I am passionate about
+                            finding thoughtful, clean solutions to problems and inplementing fully
+                            tested functionality.
+                        </p>
+                        <ul className="skills-list">
                             <li>Javascript</li>
                             <li>Node.js</li>
                             <li>Express</li>
                             <li>Knex</li>
                             <li>Postgres</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="skills-box">
+                    <FontAwesomeIcon className="center-item" icon={faTasks} />
+                    <div>
+                        <h3 className="project-name center">Testing</h3>
+                        <p className="project-description">
+                            I believe testing is an integral part of development to ensure full
+                            implementation of the design and reliable functionality for the user.
+                        </p>
+                        <ul className="skills-list">
+                            <li>Chai</li>
+                            <li>Mocha</li>
+                            <li>Jest</li>
+                            <li>Enzyme</li>
+                            <li>React Testing Library</li>
                         </ul>
                     </div>
                 </div>

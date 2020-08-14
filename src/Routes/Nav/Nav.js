@@ -21,12 +21,7 @@ class Nav extends Component {
         return (
             <nav id="nav-bar">
                 <Link id="nav-home-link" to={'/'}>
-                    
-                    <img
-                        id="logo"
-                        src="/favicon.ico"
-                        alt="HR personal logo"
-                    ></img>
+                    <img id="logo" src="/favicon.ico" alt="HR personal logo"></img>
                 </Link>
 
                 <span id="right-nav">
