@@ -40,6 +40,9 @@ class Nav extends Component {
                         <Link onClick={this.toggleDropdown} className="nav-link" to={'/contact'}>
                             Contact
                         </Link>
+                        <Link onClick={this.toggleDropdown} className="nav-link" to={'/resume'}>
+                            Resume
+                        </Link>
                     </div>
                 </span>
             </nav>

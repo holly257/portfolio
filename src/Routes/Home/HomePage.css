@@ -1,5 +1,4 @@
 .split {
-    padding: 1em;
     margin-top: 30px;
 }
 
@@ -17,8 +16,10 @@
 .home {
     font-weight: 300;
     line-height: 25px;
+    font-size: 18px;
     padding: 20px;
-    background-color: #e3ebf2;
+    background-color: #88bdcf;
+    color: white;
     font-family: 'Lato', sans-serif;
 }
 

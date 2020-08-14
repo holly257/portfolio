@@ -1,0 +1,32 @@
+.resume-pdf{
+    width: 240px;
+    height: 340px;
+    align-content: center;
+}
+
+.resume-main{
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.resume-container{
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: #fff;
+    padding: 5px;
+    margin: 2em;
+    align-content: center;
+}
+
+#download-btn{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    font-weight: 300;
+    border: 2px solid #e3ebf2;
+    padding: 2px 10px;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 10px 20px;
+}

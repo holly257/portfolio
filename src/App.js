@@ -6,6 +6,7 @@ import ContactPage from './Routes/Contact/ContactPage';
 import PortfolioPage from './Routes/Portfolio/PortfolioPage';
 import NotFoundPage from './Routes/NotFound/NotFoundPage';
 import Footer from './Routes/Footer/Footer';
+import ResumePage from './Routes/Resume/ResumePage';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                     <Route exact path="/" component={HomePage} />
                     <Route path="/contact" component={ContactPage} />
                     <Route path="/portfolio" component={PortfolioPage} />
+                    <Route path="/resume" component={ResumePage} />
                     <Route component={NotFoundPage} />
                 </Switch>
             </main>
