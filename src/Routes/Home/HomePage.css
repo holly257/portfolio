@@ -55,7 +55,27 @@
     padding: 10px;
 }
 
-@media (min-width: 800px) {
+
+@media (min-width: 700px) {
+    .wrapper-home {
+        margin: 20px 150px;
+    }
+
+    .home {
+        padding: 20px 60px;
+    }
+    .center {
+        padding: 10px;
+    }
+    .skills-list {
+        margin-top: 20px;
+    }
+    .skills-box {
+        padding: 20px 30px;
+    }
+}
+
+@media (min-width: 900px) {
     .wrapper-home {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

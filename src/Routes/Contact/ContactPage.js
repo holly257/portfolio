@@ -27,11 +27,11 @@ class ContactPage extends React.Component {
                     <div>
                         <h3 className="title-text">CONTACT</h3>
                     </div>
-                    <div className="contact-container contact-card">
+                    <div className="contact-container">
                         <span id="card-hello-top" className="split-contact">
                             <h1 id="card-greeting">Hello,</h1>
                         </span>
-                        <span className="split-contact">
+                        <span className="split-contact contact-card">
                             <form accept-charset="utf-8" action="https://formspree.io/hollymrogers12@gmail.com" method="post">
                                 <input
                                     className="card-input"
@@ -41,6 +41,7 @@ class ContactPage extends React.Component {
                                     required
                                     placeholder="Your Name"
                                 ></input>
+                                <br/>
                                 <input
                                     className="card-input"
                                     type="email"
@@ -49,6 +50,7 @@ class ContactPage extends React.Component {
                                     required
                                     placeholder="you@email.com"
                                 ></input>
+                                <br />
                                 <textarea
                                     rows="4"
                                     cols="31"

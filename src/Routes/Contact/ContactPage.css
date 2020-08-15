@@ -1,14 +1,16 @@
 .contact-container {
     box-shadow: 0px 2px 10px 2px rgb(219, 219, 219);
-    border-radius: 0px;
-    margin: 30px 0;
-    padding: 10px;
-}
-
-.contact-card {
+    margin: 30px 0px;
     padding: 0;
     border-radius: 4px 4px 4px 4px;
 }
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 #card-hello-top {
     background-color: #b1d4e0;
@@ -54,6 +56,17 @@ textarea {
     border-radius: 4px;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 10px;
+}
+
+@media (min-width: 700px) {
+    .contact-container {
+        margin: 30px 150px;
+    }
+
+    #card-greeting {
+        margin-left: 96px;
+    }
+
 }
 
 @media (min-width: 800px) {
