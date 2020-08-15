@@ -1,25 +1,50 @@
-import React from 'react';
 import './ResumePage.css';
 import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
+import { Document, Page, pdfjs } from 'react-pdf';
+import resume from './H_Rogers_Resume.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { render } from '@testing-library/react';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-function ResumePage() {
-    return (
-        <main className="resume-main">
-            <div>
+export default class FileViewer extends Component {
+    state = {
+        numPages: null,
+        pageNumber: 1,
+    };
+
+    onDocumentLoadSuccess = ({ numPages }) => {
+        this.setState({ numPages });
+    };
+
+    render() {
+        const { pageNumber, numPages } = this.state;
+
+        return (
+            <main className="resume-main">
                 <div>
-                    <h3 className="title-text">RESUME</h3>
+                    <div>
+                        <h3 className="title-text">RESUME</h3>
+                    </div>
+                    <div className="resume-container">
+                        <Document file={resume} onLoadSuccess={this.onDocumentLoadSuccess}>
+                            <Page scale={1} className="page" pageNumber={pageNumber} />
+                        </Document>
+                        <p>
+                            Page {pageNumber} of {numPages}
+                        </p>
+                        <Link
+                            to="img/H.Rogers_Resume.pdf"
+                            target="_blank"
+                            download
+                            id="download-btn"
+                        >
+                            <FontAwesomeIcon icon={faDownload} /> Download
+                        </Link>
+                    </div>
                 </div>
-                <div className="resume-container">
-                    <iframe title="resume" class="resume-pdf" src="img/Resume.png">
-                       
-                    </iframe>
-                    <Link to='img/H.Rogers_Resume.pdf' target="_blank" download id='download-btn'><FontAwesomeIcon icon={faDownload} /> Download</Link> 
-                </div>
-            </div>
-        </main>
-    );
+            </main>
+        );
+    }
 }
-
-export default ResumePage;

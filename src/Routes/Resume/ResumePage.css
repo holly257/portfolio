@@ -1,9 +1,3 @@
-.resume-pdf{
-    width: 240px;
-    height: 340px;
-    align-content: center;
-}
-
 .resume-main{
     margin-top: 40px;
     padding-top: 20px;
@@ -14,7 +8,8 @@
     background-color: #fff;
     padding: 5px;
     margin: 2em;
-    align-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 #download-btn{
@@ -29,4 +24,9 @@
     margin-bottom: 10px;
     text-align: center;
     margin: 10px 20px;
+}
+
+.page{
+    width: 140px;
+    align-content: center;
 }
