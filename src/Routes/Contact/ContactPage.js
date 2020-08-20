@@ -18,7 +18,7 @@ class ContactPage extends React.Component {
                         </span>
                         <span className="split-contact contact-card">
                             <form
-                                accept-charset="utf-8"
+                                acceptCharset="utf-8"
                                 action="https://formspree.io/hollymrogers12@gmail.com"
                                 method="post"
                             >

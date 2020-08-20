@@ -44,7 +44,6 @@ class Nav extends Component {
                             href="/resume/H.Rogers_Resume.pdf"
                             target="_blank"
                             download
-                            target="_blank"
                             rel="noopener noreferrer"
                             className="contact-item"
                         >
