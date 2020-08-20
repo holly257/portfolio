@@ -1,16 +1,21 @@
 #nav-bar {
     background-color: white;
     text-align: right;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     position: fixed;
     top: 0;
     height: 50px;
-    width: inherit;
     width: 100%;
     font-size: 18px;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.inside-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    height: 50px;
 }
 
 #logo {
@@ -54,6 +59,7 @@ a {
 
 @media (min-width: 700px) {
     #nav-show {
+        position: static;
         display: flex;
         top: initial;
         font-size: 16px;

@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
     return (
-        <>
+        <div className='main-app'>
             <nav>
                 <Nav />
             </nav>
@@ -27,7 +27,7 @@ function App() {
             <nav>
                 <Footer />
             </nav>
-        </>
+        </div>
     );
 }
 

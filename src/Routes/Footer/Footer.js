@@ -41,7 +41,7 @@ class Nav extends Component {
                     </li>
                     <li className="contact-info contact-item">
                         <a
-                            to="H.Rogers_Resume.pdf"
+                            href="/resume/H_Rogers_Resume.pdf"
                             target="_blank"
                             download
                             target="_blank"

@@ -4,7 +4,24 @@
     box-sizing: border-box;
 }
 
+#root{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+html,body {
+    height: 100vh;
+}
+
+.App{
+    flex: 1;
+    max-width: 1050px;  
+    margin: 0 auto; 
+}
+
 .main-body {
+    
     margin-top: 40px;
     padding: 20px;
     background-color: white;
@@ -18,5 +35,5 @@
     padding: 20px;
     text-align: center;
     color: #4d4646;
-    text-decoration: underline #e3ebf2;
+    text-decoration: underline #88bdcf;
 }

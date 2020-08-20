@@ -8,6 +8,7 @@
     background-color: #fff;
     padding: 5px;
     margin: 2em;
+    width: 50%;
     display: flex;
     justify-content: center;
 }

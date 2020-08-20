@@ -29,13 +29,13 @@ export default class FileViewer extends Component {
                     </div>
                     <div className="resume-container">
                         <Document file={resume} onLoadSuccess={this.onDocumentLoadSuccess}>
-                            <Page scale={1} className="page" pageNumber={pageNumber} />
+                            <Page className="page" pageNumber={pageNumber} />
                         </Document>
                         <p>
                             Page {pageNumber} of {numPages}
                         </p>
                         <Link
-                            to="./H_Rogers_Resume.pdf"
+                            to="/resume/H_Rogers_Resume.pdf"
                             target="_blank"
                             download
                             id="download-btn"

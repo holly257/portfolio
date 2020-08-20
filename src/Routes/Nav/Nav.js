@@ -20,31 +20,41 @@ class Nav extends Component {
 
         return (
             <nav id="nav-bar">
-                <Link id="nav-home-link" to={'/'}>
-                    <img id="logo" src="/favicon.ico" alt="HR personal logo"></img>
-                </Link>
+                <div className='inside-nav'>
+                    <Link id="nav-home-link" to={'/'}>
+                        <img id="logo" src="/favicon.ico" alt="HR personal logo"></img>
+                    </Link>
 
-                <span id="right-nav">
-                    <FontAwesomeIcon
-                        icon={hiddenDropdown ? faBars : faWindowClose}
-                        id="nav-bars"
-                        onClick={this.toggleDropdown}
-                    />
-                    <div id="nav-full" id={`${hiddenDropdown ? 'nav-hide' : 'nav-show'}`}>
-                        <Link onClick={this.toggleDropdown} className="nav-link" to={'/'}>
-                            Home
-                        </Link>
-                        <Link onClick={this.toggleDropdown} className="nav-link" to={'/portfolio'}>
-                            Portfolio
-                        </Link>
-                        <Link onClick={this.toggleDropdown} className="nav-link" to={'/contact'}>
-                            Contact
-                        </Link>
-                        <Link onClick={this.toggleDropdown} className="nav-link" to={'/resume'}>
-                            Resume
-                        </Link>
-                    </div>
-                </span>
+                    <span id="right-nav">
+                        <FontAwesomeIcon
+                            icon={hiddenDropdown ? faBars : faWindowClose}
+                            id="nav-bars"
+                            onClick={this.toggleDropdown}
+                        />
+                        <div id="nav-full" id={`${hiddenDropdown ? 'nav-hide' : 'nav-show'}`}>
+                            <Link onClick={this.toggleDropdown} className="nav-link" to={'/'}>
+                                Home
+                            </Link>
+                            <Link
+                                onClick={this.toggleDropdown}
+                                className="nav-link"
+                                to={'/portfolio'}
+                            >
+                                Portfolio
+                            </Link>
+                            <Link
+                                onClick={this.toggleDropdown}
+                                className="nav-link"
+                                to={'/contact'}
+                            >
+                                Contact
+                            </Link>
+                            <Link onClick={this.toggleDropdown} className="nav-link" to={'/resume'}>
+                                Resume
+                            </Link>
+                        </div>
+                    </span>
+                </div>
             </nav>
         );
     }

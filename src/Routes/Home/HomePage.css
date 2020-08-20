@@ -22,9 +22,11 @@
     color: #464646;
     font-family: 'Lato', sans-serif;
 }
+
 h4:last-of-type {
     padding-bottom: 20px;
 }
+
 h4:first-of-type {
     padding-top: 20px;
 }
@@ -32,7 +34,7 @@ h4:first-of-type {
 #home-img {
     padding-left: 0;
     margin-left: 0;
-    width: 100vw;
+    width: 100%;
 }
 
 .skills-list {
