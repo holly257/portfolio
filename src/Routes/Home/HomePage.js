@@ -1,11 +1,9 @@
 import React from 'react';
 import './HomePage.css';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faCode,
     faDatabase,
-    faCheckDouble,
     faTasks,
 } from '../../../node_modules/@fortawesome/free-solid-svg-icons';
 
@@ -29,10 +27,14 @@ function HomePage() {
                         problem solving.
                     </h4>
                     <h4 className="home">
-                        I enjoy building and finding elegant solutions to problems that increase
-                        efficieny and help the end user. I am looking for the opportunity to join a
-                        team of developers that values learning, mentorship, communication, and
-                        delivering a high quality product.
+                        I am naturally curious and I enjoy building elegant solutions to problems. I
+                        focus on increasing efficiency to help the end user. My technical experience
+                        includes JavaScript, React, Node/Express, and Postgres.
+                    </h4>
+                    <h4 className="home">
+                        I am seeking a team that values mentorship, communication, and delivering a
+                        high quality product. I am excited to add my skills to your team and hope to
+                        talk soon!
                     </h4>
                     <h4 className="home">
                         In my free time I enjoy traveling, reading, hiking, and working on personal

@@ -4,21 +4,6 @@ import './ContactPage.css';
 class ContactPage extends React.Component {
     state = { error: null, success: null };
 
-    sendEmail = e => {
-        e.preventDefault();
-        this.setState({ error: null, success: null });
-        const { name, email, message } = e.target;
-        console.log(name.value, email.value, message.value);
-
-        // if(name.value && email.value && message.value){
-        //     $.ajax({
-        //         url: 'https://formspree.io/hollymrogers12@gmail.com',
-        //         method: 'POST',
-        //         data: $(this).serialize(),
-        //         dataType: 'json'
-        //     })
-        // }
-    };
     render() {
         const { error, success } = this.state;
         return (
@@ -32,7 +17,11 @@ class ContactPage extends React.Component {
                             <h1 id="card-greeting">Hello,</h1>
                         </span>
                         <span className="split-contact contact-card">
-                            <form accept-charset="utf-8" action="https://formspree.io/hollymrogers12@gmail.com" method="post">
+                            <form
+                                accept-charset="utf-8"
+                                action="https://formspree.io/hollymrogers12@gmail.com"
+                                method="post"
+                            >
                                 <input
                                     className="card-input"
                                     type="text"
@@ -41,7 +30,7 @@ class ContactPage extends React.Component {
                                     required
                                     placeholder="Your Name"
                                 ></input>
-                                <br/>
+                                <br />
                                 <input
                                     className="card-input"
                                     type="email"
@@ -61,7 +50,12 @@ class ContactPage extends React.Component {
                                     placeholder="Write Your Message Here"
                                 ></textarea>
                                 <br />
-                                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"></input>
+                                <input
+                                    type="hidden"
+                                    name="_subject"
+                                    id="email-subject"
+                                    value="Contact Form Submission"
+                                ></input>
                                 <button type="submit" id="send-email">
                                     SEND
                                 </button>
@@ -72,6 +66,7 @@ class ContactPage extends React.Component {
                                     <p className="email_error">Sorry, something went wrong</p>
                                 )}
                             </form>
+                            {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe7FVUQd_hDnluRCYkyOUgDrK0PL8XWEOEaAAqLDQ-cOSY73A/viewform?embedded=true" width="640" height="765" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
                         </span>
                     </div>
                 </div>

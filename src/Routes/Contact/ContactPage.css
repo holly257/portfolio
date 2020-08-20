@@ -11,15 +11,12 @@
     justify-content: center;
 }
 
-
 #card-hello-top {
     background-color: #88bdcf;
     padding: 10px;
     margin: 0;
     display: flex;
 }
-
-
 
 form {
     padding-left: 15px;
@@ -67,7 +64,7 @@ textarea {
 }
 
 @media (min-width: 800px) {
-    .contact-container  {
+    .contact-container {
         display: flex;
         padding: 0;
     }

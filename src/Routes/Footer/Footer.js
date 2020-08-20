@@ -8,13 +8,13 @@ class Nav extends Component {
     render() {
         return (
             <div id="footer-container">
-                <span id='connect-email'>
+                <span id="connect-email">
                     <p className="contact-item">Let's Connect!</p>
                     <br />
                     <p className="contact-item contact-info">&nbsp; hollymrogers12@gmail.com</p>
                 </span>
 
-                <span id='connect-icons'>
+                <span id="connect-icons">
                     <li className="contact-item">
                         <img
                             className="contact-logos contact-item"

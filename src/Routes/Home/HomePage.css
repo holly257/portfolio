@@ -17,10 +17,16 @@
     font-weight: 300;
     line-height: 25px;
     font-size: 18px;
-    padding: 20px;
+    padding: 10px 20px;
     background-color: #88bdcf;
     color: white;
     font-family: 'Lato', sans-serif;
+}
+h4:last-of-type {
+    padding-bottom: 20px;
+}
+h4:first-of-type {
+    padding-top: 20px;
 }
 
 #home-img {
@@ -55,14 +61,13 @@
     padding: 10px;
 }
 
-
 @media (min-width: 700px) {
     .wrapper-home {
         margin: 20px 150px;
     }
 
     .home {
-        padding: 20px 60px;
+        padding: 10px 60px;
     }
     .center {
         padding: 10px;
