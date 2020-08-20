@@ -2,7 +2,7 @@ export default {
     projects: [
         {
             id: 1,
-            image: '',
+            image: 'img/GrowingUp.png',
             image_alt: 'Growing Up Screenshot',
             name: 'Growing Up',
             description: `Growing up is the app that grows with your family. It allows parents to easily track and monitor their child's eating and sleeping habits. Parents can start new feeding and sleeping sessions, add details about how well they slept or what they at, and see a list of last sessions and their details.`,

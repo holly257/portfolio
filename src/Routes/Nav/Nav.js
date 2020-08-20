@@ -30,7 +30,7 @@ class Nav extends Component {
                         id="nav-bars"
                         onClick={this.toggleDropdown}
                     />
-                    <div id={`${hiddenDropdown ? 'nav-hide' : 'nav-show'}`}>
+                    <div id="nav-full" id={`${hiddenDropdown ? 'nav-hide' : 'nav-show'}`}>
                         <Link onClick={this.toggleDropdown} className="nav-link" to={'/'}>
                             Home
                         </Link>

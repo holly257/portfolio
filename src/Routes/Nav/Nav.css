@@ -52,3 +52,26 @@ a {
     top: 39px;
     right: 0px;
 }
+
+@media (min-width: 700px) {
+    #nav-show {
+        display: flex;
+        top: initial;
+        font-size: 16px;
+    }
+
+    #nav-bars {
+        display: none;
+    }
+
+    #nav-hide {
+        display: flex;
+        font-size: 16px;
+    }
+
+    .nav-link,
+    a {
+        display: initial;
+        background-color: white;
+    }
+}
