@@ -73,9 +73,6 @@ class ContactPage extends React.Component {
                                 )}
                             </form>
                         </span>
-                        <span id="card-hello-right" className="split-contact">
-                            <h1 id="card-greeting">Hello.</h1>
-                        </span>
                     </div>
                 </div>
             </main>

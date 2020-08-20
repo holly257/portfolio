@@ -11,8 +11,6 @@ import {
 
 function HomePage() {
     return (
-        // <h2 className="home-intro">Builder, Designer, Leader, Creative, Open-minded, Passionate, Team Driven</h2> */}
-
         <main className="main-body" id="home-page-main">
             <div id="home-page">
                 <span className="split">

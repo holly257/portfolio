@@ -13,15 +13,13 @@
 
 
 #card-hello-top {
-    background-color: #b1d4e0;
+    background-color: #88bdcf;
     padding: 10px;
     margin: 0;
     display: flex;
 }
 
-#card-hello-right {
-    display: none;
-}
+
 
 form {
     padding-left: 15px;
@@ -66,11 +64,10 @@ textarea {
     #card-greeting {
         margin-left: 96px;
     }
-
 }
 
 @media (min-width: 800px) {
-    .contact-card {
+    .contact-container  {
         display: flex;
         padding: 0;
     }
@@ -80,15 +77,9 @@ textarea {
     }
 
     #card-hello-top {
-        display: none;
+        flex: 1;
     }
 
-    #card-hello-right {
-        background-color: #b1d4e0;
-        padding: 10px;
-        margin: 0;
-        display: flex;
-    }
     #card-greeting {
         font-size: 50px;
     }

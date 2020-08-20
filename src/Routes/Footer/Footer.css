@@ -1,10 +1,11 @@
 #footer-container {
-    /* display: flex;
+    display: flex;
     align-items: center;
-    justify-content: space-around; */
+    justify-content: space-around; 
     bottom: 0;
     width: 100vw;
-    padding: 10px 0;
+    height: 60px;
+    padding: 10px 10px;
     margin: 0;
     background-color: #464646;
 }
@@ -15,6 +16,9 @@
     padding: 0;
     margin-right: 0;
     background-color: #464646;
+    font-family: 'Lato', sans-serif;
+    color: #e3ebf2;
+    font-weight: 300;
 }
 
 .contact-item a,
@@ -29,4 +33,10 @@ li {
     height: 16px;
     margin: 0;
     padding: 0;
+}
+
+@media (min-width: 700px) {
+    #footer-container{
+        padding: 10px 50px;
+    }
 }
