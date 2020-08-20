@@ -5,7 +5,8 @@ export default {
             image: 'img/GrowingUp.png',
             image_alt: 'Growing Up Screenshot',
             name: 'Growing Up',
-            description: `Growing up is the app that grows with your family. It allows parents to easily track and monitor their child's eating and sleeping habits. Parents can start new feeding and sleeping sessions, add details about how well they slept or what they at, and see a list of last sessions and their details.`,
+            description: `Growing up is the app that grows with your family.  
+            It enables users to easily track sleeping and eating habits for their children. It incorporates Sass, React Router, and Node.js to see recent sessions and details. The app uses context to keep front end data current, and PostgreSQL for a data persistence layer.`,
             tech: 'HTML, CSS, JavaScript, React, Node.js, SQL, PostgreSQL',
             live_app: 'https://growing-up.vercel.app/',
             client: 'https://github.com/makowilliams/growing-up',
@@ -18,7 +19,7 @@ export default {
             image_alt: 'Travler Screenshot',
             name: 'Traveler',
             description:
-                'Traveler allows users to create and browse reviews of things to do on a trip. They can then take those ideas and create, edit, and save a trip itinerary.',
+                'Traveler takes a minimalistic approach to trip planning. Users can find new suggestions based on location or create new trips. It allows users to save new travel plans and view old trips with Node.js, Express, and PostgreSQL.',
             tech: 'HTML, CSS, JavaScript, React, Node.js, SQL, PostgreSQL',
             live_app: 'https://traveler.now.sh/',
             client: 'https://github.com/holly257/traveler',
@@ -31,7 +32,7 @@ export default {
             image_alt: 'Noteful Screenshot',
             name: 'Noteful',
             description:
-                'Full stack app that enables users to create their own notes, store them in folders, and update them as needed. It incorporates React Router, PostgreSQL database and uses context to keep user data up to date in each route.',
+                'Keeping notes has never been so easy! Noteful enables users to create their own notes, store them in folders, and update them as needed. It incorporates React Router with Node.js, and uses context to keep user data up to date in each route.',
             tech: 'HTML, CSS, JavaScript, React, Node.js, SQL, PostgreSQL',
             live_app: 'https://noteful-client-psi-three.now.sh/',
             client: '',
@@ -44,7 +45,7 @@ export default {
             image_alt: 'Munch Map Screenshot',
             name: 'Munch Map',
             description:
-                'Munch Map takes a users input and returns options for resturants in the designated location.',
+                'Simplify you meal search with MunchMap! Input a city, and then choose to refine the results by cuisine type or search for all the restaurants nearby. This app integrates two APIs to visualize restaurant results on an interactive map.',
             tech: 'HTML, CSS, JavaScript, REST API, jQuery',
             live_app: 'https://holly257.github.io/APIhack-restaurantMap/',
             client: '',
@@ -57,7 +58,7 @@ export default {
             image_alt: 'Google Book Search Dog',
             name: 'Book Search',
             description:
-                'Allows users to find information on books by using the Google Books API and returning data. Users can refine their search requests by both print type and book type.',
+                'Allows users to find information on books by using the Google Books API and returning data. Users can refine their search requests by print type and book type.',
             tech: 'HTML, CSS, JavaScript, REST API, React',
             live_app: 'https://noteful-client-psi-three.now.sh/',
             client: '',

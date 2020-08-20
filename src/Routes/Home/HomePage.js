@@ -14,7 +14,7 @@ function HomePage() {
                 <span className="split">
                     <img
                         id="home-img"
-                        src="/img/4.png"
+                        src="/img/5.png"
                         alt="Builder, Designer, Leader, Collaborator"
                     ></img>
                 </span>
@@ -23,7 +23,7 @@ function HomePage() {
                         <h3 className="title-text">Nice to meet you.</h3>
                     </div>
                     <h4 className="home">
-                        My name is Holly and I am an Atlanta based engineer with a passion for
+                        I am an Atlanta based engineer with a passion for
                         problem solving.
                     </h4>
                     <h4 className="home">
