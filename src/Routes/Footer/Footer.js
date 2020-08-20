@@ -16,37 +16,40 @@ class Nav extends Component {
 
                 <span id="connect-icons">
                     <li className="contact-item">
-                        <img
-                            className="contact-logos contact-item"
-                            src="/img/GitHub-Mark-Light-32px.png"
-                        ></img>
                         <a
                             href="https://github.com/holly257/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="contact-item"
-                            tabIndex="6"
-                        ></a>
+                        >
+                            <img
+                                className="contact-logos contact-item"
+                                alt="github link"
+                                src="/img/GitHub-Mark-Light-32px.png"
+                            ></img>
+                        </a>
                     </li>
                     <li className="contact-item">
-                        <FontAwesomeIcon className="contact-item" icon={faLinkedin} />
                         <a
                             href="https://www.linkedin.com/in/holly-rogers-1194a0178/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="contact-item"
-                            tabIndex="7"
-                        ></a>
+                        >
+                            <FontAwesomeIcon className="contact-item" icon={faLinkedin} />
+                        </a>
                     </li>
                     <li className="contact-info contact-item">
-                        <FontAwesomeIcon className="contact-item" icon={faFileAlt} />
                         <a
-                            href=""
+                            to="H.Rogers_Resume.pdf"
+                            target="_blank"
+                            download
                             target="_blank"
                             rel="noopener noreferrer"
                             className="contact-item"
-                            tabIndex="7"
-                        ></a>
+                        >
+                            <FontAwesomeIcon className="contact-item" icon={faFileAlt} />
+                        </a>
                     </li>
                 </span>
             </div>

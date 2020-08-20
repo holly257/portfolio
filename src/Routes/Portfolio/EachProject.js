@@ -17,7 +17,6 @@ class EachProject extends React.Component {
                                 href={this.props.live_app}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                tabIndex="4"
                             >
                                 APP
                             </a>
@@ -27,7 +26,6 @@ class EachProject extends React.Component {
                                 href={this.props.client || this.props.repo}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                tabIndex="5"
                             >
                                 CLIENT
                             </a>
@@ -38,7 +36,6 @@ class EachProject extends React.Component {
                                     href={this.props.server}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    tabIndex="5"
                                 >
                                     SERVER
                                 </a>

@@ -35,7 +35,7 @@ export default class FileViewer extends Component {
                             Page {pageNumber} of {numPages}
                         </p>
                         <Link
-                            to="img/H.Rogers_Resume.pdf"
+                            to="./H_Rogers_Resume.pdf"
                             target="_blank"
                             download
                             id="download-btn"
