@@ -4,7 +4,7 @@ Thanks for checking out my personal portfolio!
 
 ### Live Link
 
-https://holly-rogers.hollyrogers12.vercel.app/
+https://holly-rogers.vercel.app/
 
 ### Author
 

@@ -26,6 +26,7 @@ body {
     padding: 20px;
     background-color: white;
     color: #464646;
+    min-height: 90vh;
 }
 
 .title-text {
