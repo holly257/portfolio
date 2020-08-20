@@ -20,7 +20,7 @@ class Nav extends Component {
 
         return (
             <nav id="nav-bar">
-                <div className='inside-nav'>
+                <div className="inside-nav">
                     <Link id="nav-home-link" to={'/'}>
                         <img id="logo" src="/favicon.ico" alt="HR personal logo"></img>
                     </Link>

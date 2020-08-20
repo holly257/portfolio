@@ -13,11 +13,7 @@ class EachProject extends React.Component {
                     <h5 className="project-tech">{this.props.tech}</h5>
                     <section className="portfolioFooter-container">
                         <h6 className="portfolioFooter">
-                            <a
-                                href={this.props.live_app}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
+                            <a href={this.props.live_app} target="_blank" rel="noopener noreferrer">
                                 APP
                             </a>
                         </h6>

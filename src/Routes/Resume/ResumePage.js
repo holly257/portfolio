@@ -18,7 +18,10 @@ export default class FileViewer extends Component {
                         data="/resume/H.Rogers_Resume.pdf"
                         type="application/pdf"
                     >
-                        <iframe title="myResume" src="https://docs.google.com/document/d/e/2PACX-1vQopOFcFDSXOQJHDV_mVeNaAkLDbt9RIrW7J9SR7HwAnwQvEBasL7XG8euSCdIT6x8XLy-VX11oHu6M/pub?embedded=true"></iframe>
+                        <iframe
+                            title="myResume"
+                            src="https://docs.google.com/document/d/e/2PACX-1vQopOFcFDSXOQJHDV_mVeNaAkLDbt9RIrW7J9SR7HwAnwQvEBasL7XG8euSCdIT6x8XLy-VX11oHu6M/pub?embedded=true"
+                        ></iframe>
                     </object>
 
                     <section id="link-cont">

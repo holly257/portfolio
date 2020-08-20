@@ -23,8 +23,7 @@ function HomePage() {
                         <h3 className="title-text">Nice to meet you.</h3>
                     </div>
                     <h4 className="home">
-                        I am an Atlanta based engineer with a passion for
-                        problem solving.
+                        I am an Atlanta based engineer with a passion for problem solving.
                     </h4>
                     <h4 className="home">
                         I am naturally curious and I enjoy building elegant solutions to problems. I
