@@ -1,26 +1,12 @@
 import './ResumePage.css';
 import { Link } from 'react-router-dom';
 import React, { Component } from 'react';
-import { Document, Page, pdfjs } from 'react-pdf';
-import resume from './H_Rogers_Resume.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { render } from '@testing-library/react';
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export default class FileViewer extends Component {
-    state = {
-        numPages: null,
-        pageNumber: 1,
-    };
-
-    onDocumentLoadSuccess = ({ numPages }) => {
-        this.setState({ numPages });
-    };
-
     render() {
-        const { pageNumber, numPages } = this.state;
-
         return (
             <main className="resume-main">
                 <div>
@@ -28,14 +14,16 @@ export default class FileViewer extends Component {
                         <h3 className="title-text">RESUME</h3>
                     </div>
                     <div className="resume-container">
-                        <Document file={resume} onLoadSuccess={this.onDocumentLoadSuccess}>
-                            <Page className="page" pageNumber={pageNumber} />
-                        </Document>
-                        <p>
-                            Page {pageNumber} of {numPages}
-                        </p>
+                        <object
+                            className="pdf-frame"
+                            data="/resume/H.Rogers_Resume.pdf"
+                            type="application/pdf"
+                        >
+                            <iframe src="https://docs.google.com/document/d/e/2PACX-1vQopOFcFDSXOQJHDV_mVeNaAkLDbt9RIrW7J9SR7HwAnwQvEBasL7XG8euSCdIT6x8XLy-VX11oHu6M/pub?embedded=true"></iframe>
+                        </object>
+
                         <Link
-                            to="/resume/H_Rogers_Resume.pdf"
+                            to="/resume/H.Rogers_Resume.pdf"
                             target="_blank"
                             download
                             id="download-btn"
