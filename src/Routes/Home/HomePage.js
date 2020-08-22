@@ -52,7 +52,6 @@ function HomePage() {
                             carefully crafted code.
                         </p>
                         <ul className="skills-list">
-                            <li>Canva</li>
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>Javascript</li>

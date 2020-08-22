@@ -48,6 +48,7 @@ h6 {
 .project-description {
     font-size: 14px;
     line-height: 18px;
+    text-align: left;
     padding: 10px;
     color: #222831;
     font-weight: 300;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileAlt } from '../../../node_modules/@fortawesome/free-solid-svg-icons';
+import { faFileAlt, faEnvelope } from '../../../node_modules/@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '../../../node_modules/@fortawesome/free-brands-svg-icons';
 
 class Nav extends Component {
@@ -48,6 +48,17 @@ class Nav extends Component {
                             className="contact-item"
                         >
                             <FontAwesomeIcon className="contact-item" icon={faFileAlt} />
+                        </a>
+                    </li>
+                    <li className="contact-info contact-item">
+                        <a
+                            href="mailto:hollymrogers12@gmail.com"
+                            target="_blank"
+                            download
+                            rel="noopener noreferrer"
+                            className="contact-item"
+                        >
+                            <FontAwesomeIcon className="contact-item" icon={faEnvelope} />
                         </a>
                     </li>
                 </span>
