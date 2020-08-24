@@ -1,5 +1,6 @@
 import React from 'react';
 import './ContactPage.css';
+import config from '../../config';
 
 class ContactPage extends React.Component {
     state = { error: null, success: null };
@@ -25,7 +26,7 @@ class ContactPage extends React.Component {
             body: JSON.stringify(email_info),
         };
 
-        fetch(`http://localhost:8000/email`, options)
+        fetch(config.API_ENDPOINT, options)
             .then(res => {
                 if (!res.ok) {
                     return res.json().then(error => {
@@ -45,6 +46,7 @@ class ContactPage extends React.Component {
 
     render() {
         const { error, success } = this.state;
+        console.log(config.API_ENDPOINT)
         return (
             <main className="main-body">
                 <div>
