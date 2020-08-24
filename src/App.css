@@ -5,8 +5,6 @@
 }
 
 #root {
-    display: flex;
-    flex-direction: column;
     height: 100vh;
 }
 
@@ -27,6 +25,12 @@ body {
     background-color: white;
     color: #464646;
     min-height: 90vh;
+}
+
+.main-app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .title-text {

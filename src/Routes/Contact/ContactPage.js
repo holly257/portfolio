@@ -4,6 +4,45 @@ import './ContactPage.css';
 class ContactPage extends React.Component {
     state = { error: null, success: null };
 
+    SubmitContact = e => {
+        e.preventDefault();
+        this.setState({ error: null, success: null });
+
+        const { email, message, name } = e.target;
+
+        const email_info = {
+            contact_name: name.value,
+            email_from: email.value,
+            email_body: message.value,
+        };
+        console.log(email_info);
+
+        const options = {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json',
+            },
+            body: JSON.stringify(email_info),
+        };
+
+        fetch(`http://localhost:8000/email`, options)
+            .then(res => {
+                if (!res.ok) {
+                    return res.json().then(error => {
+                        throw error;
+                    });
+                }
+                return res.json();
+            })
+            .then(data => {
+                console.log(data);
+                this.setState({ success: 'Your email has been sent!' });
+            })
+            .catch(error => {
+                this.setState({ error: 'Sorry, the email did not send. Please try again later.' });
+            });
+    };
+
     render() {
         const { error, success } = this.state;
         return (
@@ -18,9 +57,9 @@ class ContactPage extends React.Component {
                         </span>
                         <span className="split-contact contact-card">
                             <form
-                                acceptCharset="utf-8"
-                                action="https://formspree.io/hollymrogers12@gmail.com"
-                                method="post"
+                                onSubmit={e => {
+                                    this.SubmitContact(e);
+                                }}
                             >
                                 <input
                                     className="card-input"
@@ -59,12 +98,8 @@ class ContactPage extends React.Component {
                                 <button type="submit" id="send-email">
                                     SEND
                                 </button>
-                                {success && (
-                                    <p className="email_error">Sorry, something went wrong</p>
-                                )}
-                                {error && (
-                                    <p className="email_error">Sorry, something went wrong</p>
-                                )}
+                                {success && <p className="email_error">{success}</p>}
+                                {error && <p className="email_error">{error}</p>}
                             </form>
                             {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe7FVUQd_hDnluRCYkyOUgDrK0PL8XWEOEaAAqLDQ-cOSY73A/viewform?embedded=true" width="640" height="765" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
                         </span>
