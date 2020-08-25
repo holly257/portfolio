@@ -14,16 +14,17 @@ function HomePage() {
                 <span className="split">
                     <img
                         id="home-img"
-                        src="/img/5.png"
+                        src="/img/dev_two.png"
                         alt="Builder, Designer, Leader, Collaborator"
                     ></img>
                 </span>
                 <span className="split">
                     <div>
-                        <h3 className="title-text">Nice to meet you.</h3>
+                        <h3 className="title-text">Nice to meet you,</h3>
                     </div>
                     <h4 className="home">
-                        I am an Atlanta based engineer with a passion for problem solving.
+                        My name is Holly Rogers and I am an Atlanta based software engineer with a
+                        passion for problem solving.
                     </h4>
                     <h4 className="home">
                         I am naturally curious and I enjoy building elegant solutions to problems. I

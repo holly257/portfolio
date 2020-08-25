@@ -12,7 +12,7 @@
 }
 
 #card-hello-top {
-    background-color: #88bdcf;
+    background-color: #98bdf2;
     padding: 10px;
     margin: 0;
     display: flex;
@@ -44,9 +44,10 @@ textarea {
 #send-email {
     color: black;
     text-decoration: none;
-    background-color: white;
-    font-weight: 300;
-    border: 2px solid #e3ebf2;
+    background-color: #98bdf2;
+    color: white;
+    font-weight: 400;
+    border: 2px solid #98bdf2;
     padding: 2px 10px;
     border-radius: 4px;
     font-family: 'Raleway', sans-serif;

@@ -35,11 +35,12 @@
 .nav-link,
 a {
     padding: 2px 20px;
-    color: #464646;
+    color: white;
     text-decoration: none;
     display: block;
-    background-color: #e3ebf2;
-    font-weight: 300;
+    background-color: #98bdf2;
+    font-weight: 400;
+    text-align: left;
 }
 
 #nav-hide {
@@ -47,7 +48,7 @@ a {
 }
 
 #nav-bars {
-    color: #88bdcf;
+    color: #98bdf2;
     margin-right: 30px;
 }
 
@@ -63,6 +64,17 @@ a {
         display: flex;
         top: initial;
         font-size: 16px;
+    }
+
+    #nav-home-link,
+    a:hover {
+        text-decoration: underline #eea737;
+    }
+
+    .nav-link,
+    a {
+        color: #464646;
+        font-weight: 300;
     }
 
     #nav-bars {

@@ -17,10 +17,14 @@ h6 {
     display: inline-block;
     margin: 0 5px 5px 0;
     font-size: 15px;
-    background-color: #e3ebf2;
+    background-color: #98bdf2;
     outline-style: 1px solid;
     border-radius: 4px;
     padding: 2px;
+}
+h6,
+a {
+    background-color: #98bdf2;
 }
 
 .portfolioFooter-container {
@@ -32,7 +36,9 @@ h6 {
 .portfolioFooter a {
     color: black;
     text-decoration: none;
-    background-color: white;
+    background-color: #98bdf2;
+    color: white;
+    font-weight: 400;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -42,7 +48,7 @@ h6 {
     color: #222831;
     font-weight: 400;
     font-family: 'Raleway', sans-serif;
-    text-decoration: underline #88bdcf;
+    text-decoration: underline #98bdf2;
 }
 
 .project-description {

@@ -21,9 +21,9 @@
 #download-btn {
     color: black;
     text-decoration: none;
-    background-color: white;
-    font-weight: 300;
-    border: 2px solid #e3ebf2;
+    background-color: #98bdf2;
+    color: white;
+    font-weight: 400;
     border-radius: 4px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
