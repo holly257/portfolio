@@ -41,16 +41,16 @@ export default {
         },
         {
             id: 4,
-            image: 'img/ScreenShot1.png',
+            image: 'img/MunchMap_results.png',
             image_alt: 'Munch Map Screenshot',
             name: 'Munch Map',
             description:
                 'Simplify you meal search with MunchMap! Input a city, and then choose to refine the results by cuisine type or search for all the restaurants nearby. This app integrates two APIs to visualize restaurant results on an interactive map.',
             tech: 'HTML, CSS, JavaScript, REST API, jQuery',
-            live_app: 'https://holly257.github.io/APIhack-restaurantMap/',
+            live_app: 'https://holly257.github.io/munch_map/',
             client: '',
             server: '',
-            repo: 'https://github.com/holly257/APIhack-restaurantMap',
+            repo: 'https://github.com/holly257/munch_map',
         },
         {
             id: 5,
