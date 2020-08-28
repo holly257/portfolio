@@ -19,7 +19,7 @@ export default {
             image_alt: 'Travler Screenshot',
             name: 'Traveler',
             description:
-                'Traveler takes a minimalistic approach to trip planning. Users can find new suggestions based on location or create new trips. It allows users to save new travel plans and view old trips with Node.js, Express, and PostgreSQL.',
+                'Traveler takes a minimalistic approach to finding new places and planning an exciting trip. Users can find new suggestions based on location or create new trips easily with a React based UI. It allows users to save new travel plans and view old trips with Node.js, Express, and PostgreSQL.',
             tech: 'HTML, CSS, JavaScript, React, Node.js, SQL, PostgreSQL',
             live_app: 'https://traveler.now.sh/',
             client: 'https://github.com/holly257/traveler',
@@ -45,7 +45,7 @@ export default {
             image_alt: 'Munch Map Screenshot',
             name: 'Munch Map',
             description:
-                'Simplify you meal search with MunchMap! Input a city, and then choose to refine the results by cuisine type or search for all the restaurants nearby. This app integrates two APIs to visualize restaurant results on an interactive map.',
+                'Simplify you meal search with MunchMap! Input a city, and then choose to refine the results by cuisine type or search for all the restaurants nearby. This app integrates two APIs to visualize restaurant results on an interactive map. It uses jQuery to track user interaction and Javascript for RESTful communication with the APIs.',
             tech: 'HTML, CSS, JavaScript, REST API, jQuery',
             live_app: 'https://holly257.github.io/munch_map/',
             client: '',
@@ -58,7 +58,7 @@ export default {
             image_alt: 'Google Book Search Dog',
             name: 'Book Search',
             description:
-                'Allows users to find information on books by using the Google Books API and returning data. Users can refine their search requests by print type and book type.',
+                'This app enables users to find information on books by using the Google Books API and returning data. Users can refine their search requests by print type and book type. By integrating jQuery and Javascript, this app promotes ease of use and simplifies finding new books.',
             tech: 'HTML, CSS, JavaScript, REST API, React',
             live_app: 'https://noteful-client-psi-three.now.sh/',
             client: '',
