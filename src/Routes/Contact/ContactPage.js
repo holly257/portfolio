@@ -103,7 +103,6 @@ class ContactPage extends React.Component {
                                 {success && <p className="email_error">{success}</p>}
                                 {error && <p className="email_error">{error}</p>}
                             </form>
-                            {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe7FVUQd_hDnluRCYkyOUgDrK0PL8XWEOEaAAqLDQ-cOSY73A/viewform?embedded=true" width="640" height="765" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
                         </span>
                     </div>
                 </div>
