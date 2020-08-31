@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-Thanks for checking out my personal portfolio!
+Check out my personal portfolio below.
 
 ### Live Link
 
