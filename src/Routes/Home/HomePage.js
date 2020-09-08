@@ -11,6 +11,11 @@ function HomePage() {
     return (
         <main className="main-body" id="home-page-main">
             <div id="home-page">
+                <span>
+                    <h3 className="title-text" id="title-name">Holly Rogers</h3>
+                    <h3 className="project-name center" id="title">Software Engineer</h3>
+                </span>
+
                 <span className="split">
                     <img
                         id="home-img"
@@ -20,10 +25,10 @@ function HomePage() {
                 </span>
                 <span className="split">
                     <div>
-                        <h3 className="title-text">Nice to meet you,</h3>
+                        <h3 className="title-text">Nice to meet you!</h3>
                     </div>
                     <h4 className="home">
-                        My name is Holly Rogers and I am an Atlanta based software engineer with a
+                        My name is Holly and I am an Atlanta-based software engineer with a
                         passion for problem solving.
                     </h4>
                     <h4 className="home">
