@@ -16,7 +16,6 @@ class ContactPage extends React.Component {
             email_from: email.value,
             email_body: message.value,
         };
-        console.log(email_info);
 
         const options = {
             method: 'POST',
@@ -36,7 +35,6 @@ class ContactPage extends React.Component {
                 return res.json();
             })
             .then(data => {
-                console.log(data);
                 this.setState({ success: 'Your email has been sent!' });
             })
             .catch(error => {
@@ -46,7 +44,6 @@ class ContactPage extends React.Component {
 
     render() {
         const { error, success } = this.state;
-        console.log(config.API_ENDPOINT)
         return (
             <main className="main-body">
                 <div>
