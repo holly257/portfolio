@@ -34,7 +34,7 @@ function HomePage() {
                     <h4 className="home">
                         I am naturally curious and I enjoy building elegant solutions to problems. I
                         focus on increasing efficiency to help the end user. My technical experience
-                        includes JavaScript, React, Node/Express, and Postgres.
+                        includes technologies such as JavaScript, React, Node/Express, and PostgreSQL.
                     </h4>
                     <h4 className="home">
                         I am seeking a team that values mentorship, communication, and delivering a
