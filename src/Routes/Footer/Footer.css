@@ -19,6 +19,7 @@
     font-family: 'Lato', sans-serif;
     color: #eeeeee;
     font-weight: 300;
+    font-size: 22px;
 }
 
 .contact-item a,
@@ -29,10 +30,13 @@ li {
 }
 
 .contact-logos {
-    width: 17px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     margin: 0;
     padding: 0;
+}
+#contact-connect{
+    margin-right: 20px;
 }
 
 @media (min-width: 700px) {

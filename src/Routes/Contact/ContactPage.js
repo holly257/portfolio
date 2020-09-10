@@ -80,7 +80,7 @@ class ContactPage extends React.Component {
                                 <br />
                                 <textarea
                                     rows="4"
-                                    cols="31"
+                                    cols="30"
                                     name="message"
                                     type="text"
                                     wrap="hard"

@@ -37,3 +37,35 @@
     width: 140px;
     align-content: center;
 }
+
+@media (min-width: 700px) {
+    .resume-container {
+        width: 700px;
+    }
+
+    .pdf-frame {
+        width: 688px;
+        height: 80vh;
+    }
+
+    iframe {
+        width: 688px;
+        height: 80vh;
+    }
+}
+
+@media (min-width: 1000px) {
+    .resume-container {
+        width: 900px;
+    }
+
+    .pdf-frame {
+        width: 888px;
+        height: 80vh;
+    }
+
+    iframe {
+        width: 888px;
+        height: 80vh;
+    }
+}

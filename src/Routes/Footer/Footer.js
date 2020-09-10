@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileAlt, faEnvelope } from '../../../node_modules/@fortawesome/free-solid-svg-icons';
@@ -8,13 +9,21 @@ class Nav extends Component {
     render() {
         return (
             <div id="footer-container">
-                <span id="connect-email">
-                    <p className="contact-item">Let's Connect!</p>
-                    <br />
-                    <p className="contact-item contact-info">&nbsp; hollymrogers12@gmail.com</p>
-                </span>
+                
 
                 <span id="connect-icons">
+                    <Link className="contact-item" id='contact-connect' to='/contact'>Let's Connect!</Link>
+                    <li className="contact-info contact-item">
+                        <a
+                            href="mailto:hollymrogers12@gmail.com"
+                            target="_blank"
+                            download
+                            rel="noopener noreferrer"
+                            className="contact-item"
+                        >
+                            <FontAwesomeIcon className="contact-item" icon={faEnvelope} />
+                        </a>
+                    </li>
                     <li className="contact-item">
                         <a
                             href="https://github.com/holly257/"
@@ -25,6 +34,7 @@ class Nav extends Component {
                             <img
                                 className="contact-logos contact-item"
                                 alt="github link"
+                                id='test'
                                 src="/img/GitHub-Mark-Light-32px.png"
                             ></img>
                         </a>
@@ -50,17 +60,7 @@ class Nav extends Component {
                             <FontAwesomeIcon className="contact-item" icon={faFileAlt} />
                         </a>
                     </li>
-                    <li className="contact-info contact-item">
-                        <a
-                            href="mailto:hollymrogers12@gmail.com"
-                            target="_blank"
-                            download
-                            rel="noopener noreferrer"
-                            className="contact-item"
-                        >
-                            <FontAwesomeIcon className="contact-item" icon={faEnvelope} />
-                        </a>
-                    </li>
+                    
                 </span>
             </div>
         );

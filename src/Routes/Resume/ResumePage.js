@@ -8,7 +8,6 @@ export default class FileViewer extends Component {
     render() {
         return (
             <main className="resume-main">
-                {/* <div> */}
                 <div>
                     <h3 className="title-text">RESUME</h3>
                 </div>
@@ -20,7 +19,7 @@ export default class FileViewer extends Component {
                     >
                         <iframe
                             title="myResume"
-                            src="https://docs.google.com/document/d/e/2PACX-1vQopOFcFDSXOQJHDV_mVeNaAkLDbt9RIrW7J9SR7HwAnwQvEBasL7XG8euSCdIT6x8XLy-VX11oHu6M/pub?embedded=true"
+                            src="https://docs.google.com/document/d/e/2PACX-1vTxpzfgrOq4vt9G6mPcJpPLt6AMdWWahfXiNBiAj5fwQ8-WFjlsSvOjNLxJz3T08bgoImx3aJoSXHit/pub?embedded=true"
                         ></iframe>
                     </object>
 
@@ -35,7 +34,6 @@ export default class FileViewer extends Component {
                         </Link>
                     </section>
                 </div>
-                {/* </div> */}
             </main>
         );
     }
