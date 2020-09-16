@@ -8,6 +8,7 @@ class EachProject extends React.Component {
                 <img className="pic" src={this.props.image} alt={this.props.image_alt} />
                 <div className="project-content">
                     <h3 className="project-name">{this.props.name}</h3>
+                    {!this.props.prompt ? '' : (<p className="project-description">{this.props.prompt}</p>)}
                     <p className="project-description">{this.props.description}</p>
 
                     <h5 className="project-tech">{this.props.tech}</h5>

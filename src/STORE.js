@@ -2,19 +2,32 @@ export default {
     projects: [
         {
             id: 1,
+            image: 'img/Photo-finder.png',
+            image_alt: 'Photo Finder Screenshot',
+            name: 'Photo Finder',
+            prompt: 'Hackathon challenge: build a front-end app that is fully functional without a mouse. ',
+            description: `I won 2nd place for my application that allows users to find and save images using React, CSS, Local Storage, and react-hot-keys.`,
+            tech: 'HTML, CSS, JavaScript, React',
+            live_app: 'https://growing-up.vercel.app/',
+            client: 'https://github.com/holly257/no-mouse_photo-board',
+            server: '',
+            repo: '',
+        },
+        {
+            id: 2,
             image: 'img/GrowingUp.png',
             image_alt: 'Growing Up Screenshot',
             name: 'Growing Up',
             description: `Growing Up is the app that grows with your family.  
             It enables users to easily track sleeping and eating habits for their children. It incorporates Sass, React Router, and Node.js to see recent sessions and details. The app uses context to keep front end data current, and PostgreSQL for a data persistence layer.`,
             tech: 'HTML, CSS, JavaScript, React, Node.js, SQL, PostgreSQL',
-            live_app: 'https://growing-up.vercel.app/',
+            live_app: 'https://photo-finder.vercel.app/',
             client: 'https://github.com/makowilliams/growing-up',
             server: 'https://github.com/halemd30/growing-up-server',
             repo: '',
         },
         {
-            id: 2,
+            id: 3,
             image: 'img/Traveler_LandingPage.png',
             image_alt: 'Travler Screenshot',
             name: 'Traveler',
@@ -27,7 +40,7 @@ export default {
             repo: '',
         },
         {
-            id: 3,
+            id: 4,
             image: 'img/Noteful.png',
             image_alt: 'Noteful Screenshot',
             name: 'Noteful',
@@ -40,7 +53,7 @@ export default {
             repo: 'https://github.com/holly257/noteful',
         },
         {
-            id: 4,
+            id: 5,
             image: 'img/MunchMap_results.png',
             image_alt: 'MunchMap Screenshot',
             name: 'MunchMap',
@@ -53,7 +66,7 @@ export default {
             repo: 'https://github.com/holly257/munch_map',
         },
         {
-            id: 5,
+            id: 6,
             image: 'img/GoogleBookSearch-Dog.png',
             image_alt: 'Google Book Search Dog',
             name: 'Book Search',
